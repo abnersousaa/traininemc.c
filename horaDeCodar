@@ -1,0 +1,24 @@
+#include <stdio.h>
+#include <stdlib.h>
+int main() {
+    char produtoA[30] = "Caneta";
+    char produtoB[30] = "Caderno";
+
+    unsigned int estogueA = 1000;
+    unsigned int estoqueB = 2000;
+
+    float valorA = 10.50;
+    float valorB = 20.75;
+
+    unsigned int estogueMinimoA = 500;
+    unsigned int estoqueMinimoB = 2500;
+
+    double valorTotalA;
+    double valorTotalB;
+
+    printf("O Produto: %s tem o estogue de: %u, e o valor unitario é: %f", produtoA, estogueA, valorA)
+
+    printf("O Produto: %s tem o estoque de: %u, e o valor unitario é: %f", produtoB, estoqueB, valorB);
+    
+    return 0;
+}
