@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 int main() {
+    
     char produtoA[30] = "Caneta";
     char produtoB[30] = "Caderno";
 
@@ -16,9 +17,9 @@ int main() {
     double valorTotalA;
     double valorTotalB;
 
-    printf("O Produto: %s tem o estogue de: %u, e o valor unitario é: %f", produtoA, estogueA, valorA)
+    printf("O Produto: %s tem o estogue de: %u, e o valor unitario é: %f\n", produtoA, estogueA, valorA);
 
-    printf("O Produto: %s tem o estoque de: %u, e o valor unitario é: %f", produtoB, estoqueB, valorB);
+    printf("O Produto: %s tem o estoque de: %u, e o valor unitario é: %f\n", produtoB, estoqueB, valorB);
     
     return 0;
 }
